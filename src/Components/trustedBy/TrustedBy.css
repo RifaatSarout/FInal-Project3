@@ -1,0 +1,38 @@
+.trustedBy {
+    background-color: #fafafa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.trustedBy .container {
+    max-width: 760px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #c8c8c8;
+    font-weight: 500;
+}
+.trustedBy .container img {
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .trustedBy {
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .trustedBy .container {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: center;
+    }
+  
+    .trustedBy .container img {
+      height: 40px;
+      margin-bottom: 10px;
+    }
+  }
+  
